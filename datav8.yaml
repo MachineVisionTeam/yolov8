@@ -1,0 +1,14 @@
+names:
+  0: apoptotic_body
+  1: fibroblast
+  2: lymphocyte
+  3: macrophage
+  4: mitotic_figure
+  5: plasma_cell
+  6: tumor
+  7: unlabeled
+  8: vascular_endothelium
+nc: 9
+path: /content/drive/MyDrive/yolov8/
+train: train/images
+val: val/images

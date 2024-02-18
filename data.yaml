@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/yolov8/train/images
+val: /content/drive/MyDrive/yolov8/val/images
+test: /content/drive/MyDrive/yolov8/test/images
+
+nc: 9
+names: ['apoptotic_body', 'fibroblast', 'lymphocyte', 'macrophage', 'mitotic_figure', 'plasma_cell', 'tumor', 'unlabeled', 'vascular_endothelium']
+
+roboflow:
+  workspace: kennesaw-ovoks
+  project: yolo-g9kib
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kennesaw-ovoks/yolo-g9kib/dataset/1
